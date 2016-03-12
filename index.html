@@ -17,7 +17,8 @@
       <div class="box">
         <header class="header">
           <div class="header__inner">
-            <img class="header__logo" src="images/udacity-logo.jpg" alt="udacity logo">
+            
+            <img class="header__logo" src="images_src/udacity-logo.jpg" alt="udacity logo">
             <div class="header__text">
               <h1 class="header__title">
                 SOURABH DEV
@@ -31,7 +32,10 @@
 
         <main class="content">
           <picture>
-            <img class="content__img" src="images/dragon.jpg">
+            <source media="(min-width: 800px)" src="images/dragon_large.jpg">
+            <source media="(min-width: 600px)" src="images/dragon_medium.jpg">
+            <source media="(min-width: 300px)" src="images/dragon_small.jpg">
+            <img class="content__img" src="images_src/dragon.jpg">
           </picture>
 
           <section>
@@ -39,21 +43,30 @@
             <div class="featured__section">
               <div class="featured__block">
                 <picture>
-                  <img class="content__img" src="images/maze.jpg">
+                  <source media="(min-width: 800px)" src="images/maze_large.jpg">
+                  <source media="(min-width: 600px)" src="images/maze_medium.jpg">
+                  <source media="(min-width: 300px)" src="images/maze_small.jpg">
+                  <img class="content__img" src="images_src/maze.jpg">
                 </picture>
                 <p class="featured__title">MAZE</p>
               </div>          
 
               <div class="featured__block">
                 <picture>
-                  <img class="content__img" src="images/jungle.jpg">
+                  <source media="(min-width: 800px)" src="images/jungle_large.jpg">
+                  <source media="(min-width: 600px)" src="images/jungle_medium.jpg">
+                  <source media="(min-width: 300px)" src="images/jungle_small.jpg">
+                  <img class="content__img" src="images_src/jungle.jpg">
                 </picture>
                 <p class="featured__title">JUNGLE</p>
               </div>
 
               <div class="featured__block" id="last_img_block">
                 <picture>
-                  <img class="content__img" src="images/creativity.jpg">
+                  <source media="(min-width: 800px)" src="images/creativity_large.jpg">
+                  <source media="(min-width: 600px)" src="images/creativity_medium.jpg">
+                  <source media="(min-width: 300px)" src="images/creativity_small.jpg">
+                  <img class="content__img" src="images_src/creativity.jpg">
                 </picture>
                 <p class="featured__title">CREATIVITY</p>
               </div>
