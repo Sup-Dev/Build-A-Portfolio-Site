@@ -14,7 +14,7 @@
   
   <body>
     <div class="container">
-      <div class="box">
+      <div class="box row">
         <header class="header">
           <div class="header__inner">
             
@@ -30,43 +30,43 @@
           </div>
         </header>
 
-        <main class="content">
+        <main class="content row">
           <picture>
             <source media="(min-width: 800px)" srcset="images/dragon-800_large.jpg 1x, images/dragon-1600_large.jpg 2x">
             <source media="(min-width: 600px)" src="images/dragon-600_medium.jpg">
             <source media="(min-width: 300px)" src="images/dragon-300_small.jpg">
-            <img class="content__img" src="images_src/dragon.jpg">
+            <img class="content__img" src="images_src/dragon.jpg" alt="a dragon">
           </picture>
 
           <section>
             <p id="featured">Featured Work</p>
             <div class="featured__section">
-              <div class="featured__block">
+              <div class="featured__block column">
                 <picture>
                   <source media="(min-width: 800px)" srcset="images/maze-800_large.jpg 1x, images/maze-1600_large.jpg 2x">
                   <source media="(min-width: 600px)" src="images/maze-600_medium.jpg">
                   <source media="(min-width: 300px)" src="images/maze-300_small.jpg">
-                  <img class="content__img" src="images_src/maze.jpg">
+                  <img class="content__img" src="images_src/maze.jpg" alt="a black maze">
                 </picture>
                 <p class="featured__title">MAZE</p>
               </div>          
 
-              <div class="featured__block">
+              <div class="featured__block column">
                 <picture>
                   <source media="(min-width: 800px)" srcset="images/jungle-800_large.jpg 1x, images/jungle-1600_large.jpg 2x">
                   <source media="(min-width: 600px)" src="images/jungle-600_medium.jpg">
                   <source media="(min-width: 300px)" src="images/jungle-300_small.jpg">
-                  <img class="content__img" src="images_src/jungle.jpg">
+                  <img class="content__img" src="images_src/jungle.jpg" alt="an artistic rendering of jungle">
                 </picture>
                 <p class="featured__title">JUNGLE</p>
               </div>
 
-              <div class="featured__block" id="last_img_block">
+              <div class="featured__block column" id="last_img_block">
                 <picture>
                   <source media="(min-width: 800px)" srcset="images/creativity-800_large.jpg 1x, images/creativity-1600_large.jpg 2x">
                   <source media="(min-width: 600px)" src="images/creativity-600_medium.jpg">
                   <source media="(min-width: 300px)" src="images/creativity-300_small.jpg">
-                  <img class="content__img" src="images_src/creativity.jpg">
+                  <img class="content__img" src="images_src/creativity.jpg" alt="a creative image">
                 </picture>
                 <p class="featured__title">CREATIVITY</p>
               </div>
@@ -74,7 +74,7 @@
           </section>
         </main>
       </div>
-      <section class="color">
+      <section class="color row">
         <div class="color__orange">
         </div>
         
