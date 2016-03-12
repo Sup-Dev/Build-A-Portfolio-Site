@@ -7,9 +7,13 @@
     
     <title>Portfolio Site</title>
     
+    <script src="js/webcomponents.min.js" type="text/javascript"></script>
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    
+    <link rel="import" href="template.html">
   </head>
   
   <body>
@@ -90,13 +94,13 @@
           <span>747704</span>
         </div>
       </section>
-      
+      <polymer-demo></polymer-demo>
     </div>
     
     <script>
       document.querySelector('.header__logo').onclick = function() {
         alert("Hi! Visitor");
       }
-    </script>
+    </script>    
   </body>
 </html>
