@@ -7,11 +7,77 @@
     
     <title>Portfolio Site</title>
     
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
   </head>
   
   <body>
-    
+    <div class="container">
+      <div class="box">
+        <header class="header">
+          <div class="header__inner">
+            <img class="header__logo" src="images/udacity-logo.jpg" alt="udacity logo">
+            <div class="header__text">
+              <h1 class="header__title">
+                SOURABH DEV
+              </h1>
+              <h5 class="header__subtitle">
+                FRONT-END NINJA
+              </h5>
+            </div>
+          </div>
+        </header>
+
+        <main class="content">
+          <picture>
+            <img class="content__img" src="images/dragon.jpg">
+          </picture>
+
+          <section>
+            <p id="featured">Featured Work</p>
+            <div class="featured__section">
+              <div class="featured__block">
+                <picture>
+                  <img class="content__img" src="images/maze.jpg">
+                </picture>
+                <p class="featured__title">MAZE</p>
+              </div>          
+
+              <div class="featured__block">
+                <picture>
+                  <img class="content__img" src="images/jungle.jpg">
+                </picture>
+                <p class="featured__title">JUNGLE</p>
+              </div>
+
+              <div class="featured__block" id="last_img_block">
+                <picture>
+                  <img class="content__img" src="images/creativity.jpg">
+                </picture>
+                <p class="featured__title">CREATIVITY</p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <section class="color">
+        <div class="color__orange">
+        </div>
+        
+        <div class="color__grey">
+        </div>
+        
+        <div class="color__black">
+        </div>
+        
+        <div class="color__text">
+          <span>F8981C</span>
+          <span>BCBBBB</span>
+          <span>747704</span>
+        </div>
+      </section>
+      
+    </div>
   </body>
 </html>
